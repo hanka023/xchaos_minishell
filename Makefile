@@ -3,7 +3,7 @@ NAME = lex
 
 # Překladač a příznaky
 CC = gcc
-CFLAGS = -Wall -I gnl -I utils -I fPie
+CFLAGS = -Wall -Wextra -Werror -I gnl -I utils -I fPie
 
 # Seznam všech .c souborů
 SRC = main.c \
